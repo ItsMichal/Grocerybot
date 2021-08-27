@@ -1,0 +1,4 @@
+flask
+numpy
+git+https://github.com/alters-mit/ikpy.git#egg=ikpy
+requests

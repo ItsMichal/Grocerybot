@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery Shopper</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="mt-5">Grocery Shopper</h1>
+            <h3>Select your items</h3>
+            <hr>
+            <form action="/shop" method="post">
+              <h5>Aisle #1</h5>
+              <div class="form-check">
+                <input name="beer" class="form-check-input" type="checkbox"  value="True" id="beer">
+                <label class="form-check-label" for="beer">
+                  Beer <small>(best)</small>
+                </label>
+              </div>
+              <div class="form-check">
+                <input name="cereal" class="form-check-input" type="checkbox"  value="True" id="cereal">
+                <label class="form-check-label" for="cereal">
+                  Cereal <small>(finicky)</small>
+                </label>
+              </div>
+              <h5>Aisle #2</h5>
+              <div class="form-check">
+                  <input name="orange" class="form-check-input" type="checkbox"  value="True" id="orange">
+                  <label class="form-check-label" for="orange">
+                    Orange <small>(mostly)</small>
+                  </label>
+              </div>
+              <div class="form-check">
+                <input name="apple" class="form-check-input" type="checkbox"  value="True" id="apple">
+                <label class="form-check-label" for="apple">
+                  Apple <small>(mostly)</small>
+                </label>
+              </div>
+              <div class="form-check">
+                <input name="jam" class="form-check-input" type="checkbox" value="True" id="jam">
+                <label class="form-check-label" for="jam">
+                  Jam <small>(mostly)</small>
+                </label>
+              </div>
+              <h5>Aisle #3</h5>
+              <div class="form-check">
+                <input name="rubber_duck" class="form-check-input" type="checkbox" value="True" id="rubber_duck">
+                <label class="form-check-label" for="rubber_duck">
+                  Rubber Duck <small>(sometimes)</small>
+                </label>
+              </div>
+              <div class="form-check">
+                <input name="honey" class="form-check-input" type="checkbox" value="True" id="honey">
+                <label class="form-check-label" for="honey">
+                  Honey <small>(mostly)</small>
+                </label>
+              </div>
+              <h5>Aisle #4</h5>
+              <div class="form-check">
+                <input name="biscuit" class="form-check-input" type="checkbox" value="True" id="biscuit">
+                <label class="form-check-label" for="biscuit">
+                  Biscuit <small>(barely)</small>
+                </label>
+              </div>
+              <button type="submit" class="mt-2 btn btn-primary">Shop!</button>
+            </form>
+            <p>{{ hint }}</p>
+        </div>
+    </body>
+</html>
