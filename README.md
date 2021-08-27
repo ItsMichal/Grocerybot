@@ -4,7 +4,11 @@ Grocerybot is a proof-of-concept robot that utilizes inverse kinematics, object 
 
 This is our final project submission for the Spring 2021 session of CSCI 3302 - Intro to Robotics at CU Boulder. This is a proof of concept, so please treat it as such, and thank you!
 
+## Project Video (YouTube)
+
 [![Grocerybot Demo](https://img.youtube.com/vi/YaHhRhEKA_I/0.jpg)](https://www.youtube.com/watch?v=YaHhRhEKA_I "Grocerybot Demo")
+
+Click the above image to be taken to the project video (2m35s)
 
 ## Contributors
 
